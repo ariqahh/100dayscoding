@@ -1,0 +1,8 @@
+package day001;
+public class Day001 {
+    public static void main(String[] args) {
+        // Bismillah
+        System.out.println("halo Dunia");
+    }
+    
+}
