@@ -1,0 +1,15 @@
+package day002;
+class Day002 {
+    public static void main(String[] args) {
+        // day two
+        String nama = "ariqah maheswari AP";
+        String usia = "18 tahun";
+        String alamat = "Kalukku";
+        
+        System.out.println("Halo!");
+        System.out.println("Nama saya " + nama);
+        System.out.println("Saya berusia " + usia);
+        System.out.println("Saya berasal dari " + alamat);
+    }
+    
+}
