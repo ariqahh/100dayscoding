@@ -1,0 +1,13 @@
+package day003;
+public class Day003 {
+    public static void main(String[] args) {
+        //sebagian tipe data angka
+        int angka1 = 10;
+        byte angka2 = 11;
+        short angka3 = 12;
+        
+        System.out.println(angka1 + angka2 + angka3);
+                
+    }
+    
+}
