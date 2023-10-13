@@ -1,0 +1,14 @@
+package day005;
+public class Day005 {
+    public static void main(String[] args) {
+        // trus or false
+        int angka1 = 4;
+        int angka2 = 6;
+        int angka3 = 3;
+        int angka4 = 8;
+        
+        System.out.println(angka1>angka2);
+        System.out.println(angka3==angka4);
+    }
+    
+}
