@@ -1,0 +1,12 @@
+package day004;
+public class Day004 {
+    public static void main(String[] args) {
+        // tipe data angka desimal
+        float beratbadan = 45.0f;
+        double tinggibadan = 1.57;
+        
+        System.out.println("berat badan saya adalah " + beratbadan);
+        System.out.println("tinggi badan saya dalah " + tinggibadan);
+    }
+    
+}
