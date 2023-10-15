@@ -1,0 +1,11 @@
+package day006;
+public class Day006 {
+    public static void main(String[] args) {
+        // TODO code application logic here
+        int angka = 2;
+        angka*= 3;
+        angka+=2;
+        System.out.println(angka);
+        
+    }
+}
