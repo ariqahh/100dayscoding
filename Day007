@@ -1,0 +1,15 @@
+package day007;
+public class Day007 {
+    public static void main(String[] args) {
+        int angka1 = 3;
+        int angka2 = 4;
+        int angka3 = 6;
+        int angka4 = 8;
+        
+        System.out.println(angka1 > angka2);
+        System.out.println(angka2==angka2);
+        System.out.println(angka3<angka4);
+        System.out.println(angka1!=angka4);
+    }
+    
+}
