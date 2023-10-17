@@ -1,0 +1,12 @@
+package day010;
+public class Day010 {
+    public static void main(String[] args) {
+        short x = 20;
+        short y = 15;
+        short z = 10;
+        
+        System.out.println(x+y*z);
+        
+    }
+    
+}
