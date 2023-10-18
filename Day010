@@ -1,0 +1,13 @@
+package day009;
+public class Day009 {
+    public static void main(String[] args) {
+        // menghitung volume balok
+        byte panjang = 8;
+        byte lebar = 4;
+        byte tinggi = 10;
+        
+        System.out.println("hitunglah volume balok tersebut!");
+        System.out.println("hasil : " + panjang*lebar*tinggi + " cm3");
+    }
+    
+}
