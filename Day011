@@ -1,0 +1,34 @@
+package day011;
+
+import java.util.Scanner;
+
+public class Day011 {
+
+    public static void main(String[] args) {
+        java.util.Scanner input = new Scanner (System.in);
+        
+        String Nama;
+        String NIM;
+        String Jurusan;
+        String Semester;
+        String PT_Asal;
+        String PT_Tujuan;
+        
+        System.out.print("Input Nama = ");
+        input.nextLine();
+        System.out.print("Input NIM = ");
+        input.nextLine();
+        System.out.print("Input Jurusan = ");
+        input.nextLine();
+        System.out.print("Input Semester = ");
+        input.nextLine();
+        System.out.print("Input PT_Asal = ");
+        input.nextLine();
+        System.out.print("input PT_Tujuan = ");
+        input.nextLine();
+        
+        System.out.println("--------");
+    
+    }
+    
+}
