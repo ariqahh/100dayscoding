@@ -1,0 +1,19 @@
+package day012;
+public class Day012 {
+    public static void main(String[] args) {
+        // tipe data non primitif (String)
+        String nama = "Chika";
+        System.out.println(nama);
+        System.out.println(nama.length()); //menghitung jumlah karakter pada variabel
+        System.out.println(nama.toLowerCase()); //mengubah semua huruf pd variabel menjadi huruf kecil
+        System.out.println(nama.toUpperCase()); //mengubah semua huruf pd variabel menjadi kapital
+        System.out.println(nama.charAt(1)); //menentukan karakter pertama pd variabel 
+        System.out.println(nama.charAt(2)); //menentukan karakter ke 2 pd variabel
+        System.out.println(nama.charAt(3)); //menentukan karakter ke 3 pd variabel
+        System.out.println(nama.indexOf("a")); //menentukan karakter a berada pd huruf keberapa
+        
+        //index pd variabel dimulai dari 0
+        
+    }
+    
+}
