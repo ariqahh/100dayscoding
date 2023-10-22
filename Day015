@@ -1,0 +1,22 @@
+package day015;
+public class Day015 {
+    public static void main(String[] args) {
+        // Array  multi dimensi (array didalam array)
+        
+        String[][] datamahasiswa = {
+            {"Ariqah", "D011111"},
+            {"Dimas", "D022222"},
+            {"Eka", "D0333333"},
+    };
+        
+        for(int i = 0; i <datamahasiswa.length; i++){
+            System.out.println("Nama : " + datamahasiswa[i][0]);
+            System.out.println("NIM : " + datamahasiswa[i][1]);
+            
+            //jarak
+            System.out.println("\n");
+        }
+        
+    }
+    
+}
