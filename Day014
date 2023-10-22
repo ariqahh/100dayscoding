@@ -1,0 +1,12 @@
+package day014;
+public class Day014 {
+    public static void main(String[] args) {
+        // Array (pengulangan) jika datanya sampai 1000
+        
+        String[] nama = {"ariqah", "maheswari", "artalaysia", "paturusi"};
+        
+        for (int i = 1; i < nama.length; i++){
+            System.out.println("index ke-" + i + ":" + nama[i]);
+        }
+    } 
+}
