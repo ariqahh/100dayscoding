@@ -1,0 +1,14 @@
+package day013;
+public class Day013 {
+    public static void main(String[] args) {
+        // tipe data non primitif (Array)
+        // Array merupakan struktur data untuk menyimpan sekumpulan data dalam satu tempat
+        // array bisa digunakan untuk menyimpan sejumlah data besar dengan tipe yang sama
+        
+        String[] nama = {"Ariqah", "Maheswari", "Artalaysia", "Paturusi"};
+        System.out.println(nama[2]);
+        System.out.println(nama[0]);
+        System.out.println(nama[3]);
+    }
+    
+}
