@@ -1,0 +1,13 @@
+package day016;
+public class Day016 {
+    public static void main(String[] args) {
+        // penggunaan integer pada array
+        int[] angka = {1,2,3,4};
+        System.out.println(angka[0]);
+        System.out.println(angka[1]);
+        System.out.println(angka[2]);
+        System.out.println(angka[3]);
+        
+    }
+    
+}
