@@ -1,0 +1,15 @@
+package day017;
+public class Day017 {
+    public static void main(String[] args) {
+        // non primitif integer (Array)
+        int[] angka= new int[5];
+        angka [0] = 100;
+        angka[1] = 200;
+        angka[2] = 300;
+        angka[3] = 400;
+        System.out.println(angka[2]);
+        System.out.println(angka[0]);
+        System.out.println(angka[3]);
+    }
+    
+}
