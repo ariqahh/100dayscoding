@@ -1,0 +1,12 @@
+package day018;
+public class Day018 {
+    public static void main(String[] args) {
+        
+        double[] data = {21.22, 22.23, 127.34, 234.45};
+        
+        for (double value:data){
+            System.out.println("ditampilkan : " + value);
+    
+    }
+    }
+ }
