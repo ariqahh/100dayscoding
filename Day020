@@ -1,0 +1,18 @@
+package day020;
+public class Day020 {
+    public static void main(String[] args) {
+        char[] karakter = new char[3] ; 
+        karakter [0] = 'a';
+        karakter [1] = 'b';
+        karakter [2] = 'c';
+        for(char value:karakter){
+            System.out.println("karakter : " + value);
+        
+        for(char d=0;d<karakter.length;d++){
+        System.out.println("karakter : " + karakter [d]);
+        }   
+    
+    }   
+}
+}
+
