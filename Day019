@@ -1,0 +1,9 @@
+package day019;
+public class Day019 {
+    public static void main(String[] args) {
+        boolean[] data = {true, false, true, false};
+        for (boolean value:data){
+            System.out.println("ditampilkan data boolean : " + value);
+        }
+    }
+ }
