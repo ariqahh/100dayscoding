@@ -1,0 +1,16 @@
+package day021;
+public class Day021 {
+    public static void main(String[] args) {
+        // TODO code application logic here
+        String a = "5";
+        int b = 5;
+        
+        //System.out.println(a + b);
+        //hasilnya 55 karena string dan integer tidak dapat dijumlahkan
+        
+        System.out.println(Integer.parseInt(a) + b);
+        //String di konversi ke Integer maka hasilnya 10.
+   
+    }
+    
+}
