@@ -1,0 +1,11 @@
+package day022;
+public class Day022 {
+    public static void main(String[] args) {
+        String a = "3";
+        double b = 4.9;
+        
+        System.out.println(Double.parseDouble(a) + b);
+        
+    }
+    
+}
