@@ -1,0 +1,43 @@
+package day028;
+
+import java.util.Scanner;
+
+public class Day028 {
+    public static void main(String[] args) {
+        // Percabangan If Else (lanjutan)
+        Scanner bumbu = new Scanner(System.in);
+        String BumbuDapur = null;
+        Integer pilihan;
+        Integer harga = 0;
+        Integer jumlah;
+        System.out.println("--- bumbu dapur ---");
+        System.out.println("1. bawang merah\n2. bawang putih\n3. cabai rawit\n4. cabai keriting");
+        System.out.print("pilihan : ");
+        pilihan = bumbu.nextInt();
+        
+        if (pilihan == 1){
+            BumbuDapur = "bawang merah";
+            harga = 10000;
+        }else if(pilihan == 2){
+            BumbuDapur = "bawang putih";
+            harga = 15000;
+        }else if (pilihan == 3){
+            BumbuDapur = "cabai rawit";
+            harga = 15000;
+        }else if (pilihan == 4){
+            BumbuDapur = "cabai keriting";
+            harga = 10000;
+        }
+        
+        System.out.print("jumlah : ");
+        jumlah = bumbu.nextInt();
+        
+        System.out.println("----------------------");
+        System.out.println("bumbu yang ingin dibeli : " + BumbuDapur);
+        System.out.println(BumbuDapur + " - Rp. " + harga + "/Kg");
+        
+        harga = harga * jumlah;
+        System.out.println("Total : Rp. " + harga);
+    }
+}
+
