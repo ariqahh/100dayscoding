@@ -1,0 +1,30 @@
+package day026;
+
+import java.util.Scanner;
+
+public class Day026 {
+    public static void main(String[] args) {
+        // Percabangan If Else
+        Scanner bumbu = new Scanner(System.in);
+        String BumbuDapur = null;
+        Integer pilihan;
+        
+        System.out.println("--- bumbu dapur ---");
+        System.out.println("1. bawang merah\n2. bawang putih\n3. cabai rawit\n4. cabai keriting");
+        System.out.print("pilihan : ");
+        pilihan = bumbu.nextInt();
+        
+        if (pilihan == 1){
+            BumbuDapur = "bawang merah";
+        }else if(pilihan == 2){
+            BumbuDapur = "bawang putih";
+        }else if (pilihan == 3){
+            BumbuDapur = "cabai rawit";
+        }else if (pilihan == 4){
+            BumbuDapur = "cabai keriting";
+        }
+       
+        System.out.println("----------------------");
+        System.out.println("bumbu yang ingin dibeli : " + BumbuDapur);
+    }
+}
