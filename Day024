@@ -1,0 +1,16 @@
+package day024;
+public class Day024 {
+    public static void main(String[] args) {
+        // Percabangan If Else
+        Integer x = 4;
+        if (x == 5){
+            System.out.println("benar");
+        }else if (x == 3){
+            System.out.println("benar sekali");   
+        }else if (x !=5 ){
+            System.out.println("sangat benar");
+        }else{
+            System.out.println("sangat sangat benar");
+        }
+    }
+}
