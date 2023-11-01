@@ -1,0 +1,11 @@
+package day023;
+public class Day023 {
+    public static void main(String[] args) {
+        
+        Integer angka = 45;
+        Double angka2 = 30.5;
+        System.out.println(angka.toString().getClass());
+        System.out.println(angka2.toString().getClass());
+    }
+    
+}
