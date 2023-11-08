@@ -1,0 +1,15 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+  int X = 10, Y = 3;
+
+  int Z;	
+
+  Z = X % Y;
+
+  cout<<X<<" % "<<Y<<" = "<<Z;
+
+  return 0;
+}
