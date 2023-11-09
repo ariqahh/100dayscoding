@@ -1,0 +1,13 @@
+package day032;
+import java.math.BigInteger;
+public class Day032 {
+
+    public static void main(String[] args) {
+    String angka2 = "100000000000";
+    BigInteger a = new BigInteger(angka2);
+    
+        System.out.println(a);
+        
+    }
+    
+}
