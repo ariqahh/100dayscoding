@@ -1,0 +1,19 @@
+
+package day036;
+public class Day036 {
+
+    public static void main(String[] args) {
+        // float to integer
+        
+        float bilDesimal = 34.05f;
+        int bilBulat = (int) bilDesimal;
+        
+        System.out.println("Bilangan desimal : " + bilDesimal);
+        System.out.println("Bilangan bulat : " + bilBulat);
+    }
+    
+}
+
+   
+    
+
