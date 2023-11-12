@@ -1,0 +1,15 @@
+
+package day035;
+
+public class Day035 {
+
+    public static void main(String[] args) {
+        // Double to Integer
+        double bilDesimal = 34.0;
+        int bilBulat = (int) bilDesimal;
+        
+        System.out.println("Bilangan desimal : " + bilDesimal);
+        System.out.println("Bilangan bulat : " + bilBulat);
+    }
+    
+}
