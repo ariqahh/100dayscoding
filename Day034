@@ -1,0 +1,16 @@
+
+package day034;
+
+public class Day034 {
+
+    public static void main(String[] args) {
+        // type casting
+        int bilBulat = 349;
+        double bilDesimal = bilBulat;
+        
+        System.out.println("Bilangan bulat : " + bilBulat);
+        System.out.println("Bilangan desimal : " + bilDesimal);
+        
+    }
+    
+}
