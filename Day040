@@ -1,0 +1,25 @@
+
+package day040;
+
+import java.math.BigInteger;
+import java.util.Scanner;
+
+public class Day040 {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner (System.in);
+        System.out.println("masukkan angka : ");
+        String i = input.nextLine();
+        BigInteger a = new BigInteger(i);
+        
+        System.out.println("angka 2 : ");
+        String b = input.nextLine();
+        BigInteger c = new BigInteger(b);
+        
+        BigInteger d = a.remainder(c); //Sisa Bagi
+        
+        System.out.println(d);
+
+    }
+    
+}
