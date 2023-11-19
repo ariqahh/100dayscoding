@@ -1,0 +1,28 @@
+
+package day042;
+
+import java.math.BigDecimal;
+import java.util.Scanner;
+
+public class Day042 {
+
+    public static void main(String[] args) {
+        // Big Decimal
+        Scanner input = new Scanner (System.in);
+        
+        System.out.println("angka 1 : ");
+        String i = input.nextLine();
+        BigDecimal a = new BigDecimal(i);
+        
+        System.out.println("angka 2 : ");
+        String b = input.nextLine();
+        BigDecimal c = new BigDecimal(b);
+        
+        BigDecimal d = a.subtract(c); //pengurangan
+        
+        System.out.println(d);
+
+    }
+    
+}
+
