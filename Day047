@@ -1,0 +1,10 @@
+package day046;
+
+public class Day046{
+
+public static void main(String[] args) {
+System.out.println(Math.min(3,  2)); 
+System.out.println(Math.max(200, 340));
+
+}
+}
