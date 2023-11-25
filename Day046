@@ -1,0 +1,15 @@
+package day047;
+
+public class Day047 {
+
+public static void main(String[] args) { 
+
+System.out.println("akar dari 64 adalah: " + Math.sqrt(64)); 
+System.out.println("akar dari 36 adalah : " + Math.sqrt(36));
+System.out.println("akar dari 81 adalah : " + Math.sqrt (81)); 
+System.out.println("akar dari 289 adalah :" + Math.sqrt ( 289));
+
+}
+
+}
+
