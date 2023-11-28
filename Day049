@@ -1,0 +1,10 @@
+
+package day048;
+
+public class Day048 {
+
+    public static void main(String[] args) {
+        System.out.println("hasilnya adalah : " + Math.abs(-100));
+    }        
+    
+}
