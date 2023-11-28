@@ -1,0 +1,11 @@
+
+package day048;
+
+public class Day048 {
+
+    public static void main(String[] args) {
+        int angka = (int)(Math.random()*21);
+        System.out.println("hasilnya adalah : " + angka);
+    }        
+    
+}
