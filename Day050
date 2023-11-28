@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+int A; 
+A = 0; 
+while (A<10) {
+cout<<"hari ini adalah hari selasa"<<endl;
+A++; 
+}
+return 0;
+}
