@@ -1,0 +1,31 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+
+int angka = 100;
+
+int hasil = 0;
+
+int jumlah = 0;
+
+for(int i = 2 ; i <= angka; i++){
+
+hasil = i % 2;
+
+if(hasil == 0){
+
+cout<< i<<" ";
+
+jumlah += i;
+
+}
+
+}
+
+cout<<"\n hasil penjumlahan = "<< jumlah<<endl;
+
+return 0;
+
+}
