@@ -1,0 +1,29 @@
+package day057;
+import java.util.Scanner;
+public class Day057{
+    public static int pangkat (int a, int p){
+        int hasil = a;
+        for(int i = 1; i<p; i++){
+            hasil *= a;
+        }
+        return hasil;
+    }
+    public static void pangkatLagi (int a, int p){
+        System.out.print(a+ " pangkat "+p+" = ");
+        System.out.print(pangkat(a,p));
+    }
+    public static void main (String[]args){
+        int angka, pangkat;
+        Scanner input = new Scanner (System.in);
+        System.out.print ("angka = ");
+        angka = input.nextInt();
+        System.out.print ("pangkat = ");
+        pangkat = input.nextInt();
+
+        System.out.print("--------------------\n");
+   
+        pangkatLagi(angka, pangkat);
+        System.out.println("");
+
+    }
+}
