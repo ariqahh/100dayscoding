@@ -1,0 +1,10 @@
+public class day055 {
+    public static void main(String[]args){
+        double a[]= {3, 5, 6, 10, 9, 11};
+        double maks = 0;
+        for (int i = 0; i < a.length; i++){
+            maks = Math.max(maks, a[i]);
+        }
+        System.out.print("Nilai yang paling tinggi adalah = " + maks);
+    }
+}
