@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int nilai [5];
+    nilai[0] = 4;
+    nilai[1] = 3;
+    nilai[2] = 2;
+    nilai[3] = 1;
+    nilai[4] = 0;
+    cout<<"Indeks ke 0 adalah : "<<nilai[0]<<endl;
+    cout<<"Indeks ke 1 adalah : "<<nilai[1]<<endl;
+    cout<<"Indeks ke 2 adalah : "<<nilai[2]<<endl;
+    cout<<"Indeks ke 3 adalah : "<<nilai[3]<<endl;
+    cout<<"Indeks ke 4 adalah : "<<nilai[4]<<endl;
+}
