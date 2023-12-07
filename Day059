@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    double TB, BBideal; //deklarasi variabel
+    cout<<"Masukkan tinggi badan (Cm) : "; 
+    cin>>TB; //menginput tinggi badan user
+    
+    //menghitung berat badan ideal
+    BBideal = (TB - 100) - 0.1* (TB - 100); //mencari berat badan yang ideal
+
+    //menampilkan hasil
+    cout<<"Berat badan ideal untuk tinggi " <<TB<<" Cm adalah : "<<BBideal<<" Kg\n";
+
+    return 0;
+}
