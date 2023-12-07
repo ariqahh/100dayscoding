@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    int X,Y,Z; //deklarasikan variabel
+
+    cout<<"Masukkan nilai x = ";
+    cin>>X;
+    cout<<"Masukkan nilai y = ";
+    cin>>Y;
+    cout<<"Masukkan nilai z = ";
+    cin>>Z;
+
+    int temp;
+    temp = X;
+    X=Y;
+    Y=Z;
+    Z=temp;
+
+    cout<<"---------------------\n";
+    cout<<"Setelah pertukaran\n";
+    cout<<"Nilai y = "<<X<<endl;
+    cout<<"Nilai z = "<<Y<<endl;
+    cout<<"Nilai x = "<<Z<<endl;
+    return 0;
+
+
+
+}
