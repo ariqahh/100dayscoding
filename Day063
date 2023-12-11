@@ -1,0 +1,8 @@
+public class Day063 {
+    public static void main(String[]args){
+        String[] hewan = {"kucing\n", "anjing\n", "ayam\n"};
+        for (String namaHewan : hewan){
+            System.out.print (namaHewan);
+        }
+    }
+}
