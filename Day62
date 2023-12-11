@@ -1,0 +1,13 @@
+public class Day062 {
+    public static void main(String[]args){
+        int usia [] = {3,6,2,7,8,23};
+        int total = 0;
+
+        for (int i : usia){
+            total += i; //tidak boleh memakai kali dan bagi
+        }
+        System.out.print(total);
+        
+
+    }
+}
