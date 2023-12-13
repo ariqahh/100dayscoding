@@ -1,0 +1,12 @@
+public class Day064 {
+    public static void main(String[] args) {
+        for (int i = 1; i <= 10; i++) {
+            System.out.println("angka maksimum : " + i);
+            
+            // Memberhentikan loop jika nilai i sama dengan 3
+            if (i == 5) {
+                break;
+            }
+        }
+    }
+}
