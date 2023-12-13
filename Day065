@@ -1,0 +1,14 @@
+public class Day065 {
+    public static void main(String[] args) {
+        for (int i = 1; i <= 5; i++) {
+            
+            // Melewati iterasi jika nilai i sama dengan 3
+            if (i == 2) {
+                System.out.println("angka ke : " + i + " dilewati menggunakan continue.");
+                continue;
+            }
+            
+            System.out.println("angka ke : " + i);
+        }
+    }
+}
