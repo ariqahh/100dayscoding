@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int N = 11; //nilai n, Gnjil
+    for ( int i = 1; i <= N; i+=2){ 
+        
+        for (int J = 0; J < (N-i)/2; ++J) {
+            cout<<" ";
+        }
+        for (int J = 0; J < i; ++J){
+            cout<<"*";
+        }
+
+        cout<<"\n";
+    }
+    return 0;
+}
