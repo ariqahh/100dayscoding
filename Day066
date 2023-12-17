@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main () {
+    string namaDosen [] = {"Pak Nuralamsah", "Pak wawan", "kak Amirul", "Pak Sugi", "Bu Arnita"};
+        cout<<"Nama Dosen Informatika : \n";
+        for (int i = 0; i < 5; i++){
+            cout<<i+1<<". "<<namaDosen[i]<<"\n";
+        }
+
+        cout<<"Indeks ke 1 : "<<namaDosen[1]<<endl;
+        cout<<"Indeks ke 3 : "<<namaDosen[3]<<endl;
+return 0;
+
+}
