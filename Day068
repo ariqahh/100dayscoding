@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main(){
+    const int maksElemen = 10;
+    int larik [maksElemen];
+    for (int i = 0; i < maksElemen; i++){
+        larik[i] = i+1;
+        cout<<"Elemen ke "<<i+1<<": "<<larik[i]<<"\n";
+    }
+    
+    return 0;
+}
