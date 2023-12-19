@@ -1,0 +1,30 @@
+#include <iostream>
+//#include <string>
+//include <cstdlib>
+using namespace std;
+
+int main() {
+    const string sandiLewatBenar = "apakahsandinya123";
+    int percobaan = 0;
+
+    while (percobaan < 3) {
+        string inputSandi;
+        cout<<"Masukkan sandi-lewat: ";
+        cin>>inputSandi;
+
+        if (inputSandi == sandiLewatBenar) {
+            cout<<"Selamat, sandi-lewat benar. Anda dapat mengakses sistem.\n";
+            break;
+        } else {
+            cout<<"Sandi-lewat salah. Coba lagi.\n";
+            percobaan++;
+        }
+    }
+
+    if (percobaan == 3) {
+        cout<<"Anda telah melebihi batas percobaan. Akses ditolak.\n";
+        // Menambahkan tindakan tambahan jika melebihi batas percobaan, seperti mengunci akun, dsb.
+    }
+
+    return 0;
+}
