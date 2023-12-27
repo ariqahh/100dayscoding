@@ -1,0 +1,26 @@
+
+package day076;
+
+import java.util.Scanner;
+
+public class Day076 {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner (System.in);
+        System.out.print("Masukkan batas angka : ");
+        int a = input.nextInt();
+        int hasil = 0;
+        
+        for (int i = 1; i <= a; i++) {
+            System.out.print(i);
+            hasil += i;
+            
+            if (i != a) {
+                System.out.print(" + ");
+            }
+            
+        }
+        System.out.println(" = " + hasil);
+    }
+    
+}
