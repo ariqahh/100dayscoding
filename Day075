@@ -1,0 +1,19 @@
+
+package day075;
+
+import java.util.Scanner;
+
+public class Day075 {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner (System.in);
+        System.out.println("Masukkan gaji pokok (Juta) : ");
+        int pokok = input.nextInt();
+        int lembur = 55000;
+        System.out.println("Masukkan waktu lembur (Jam) : ");
+        int waktu = input.nextInt();
+        int hasil = (lembur*waktu) + pokok;
+        System.out.println("Gaji bersih karyawan adalah : " + hasil);
+    }
+    
+}
