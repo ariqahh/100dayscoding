@@ -1,0 +1,33 @@
+
+package midd4;
+
+import java.util.Scanner;
+
+public class Midd4 {
+
+    public static void main(String[] args) {
+        while (true) {
+            Scanner input = new Scanner (System.in);           
+            int angka = input.nextInt();
+            if (angka % 2 == 0){
+                break;
+            } else if (angka % 2 == 1){
+                System.out.println("Masukkan angka kembali : ");
+            }
+                
+            } 
+                
+            
+        
+        }
+        
+        
+    
+        }
+
+        
+       
+    
+
+    
+
