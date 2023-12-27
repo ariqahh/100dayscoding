@@ -1,0 +1,16 @@
+
+package day077;
+
+import java.util.Scanner;
+
+public class Day077 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner (System.in);
+        System.out.println("Masukkan angka : ");
+        int angka = input.nextInt();
+        if (angka % 2 == 1) {
+            System.out.println("ganjil");
+        } 
+    }
+    
+}
