@@ -1,0 +1,13 @@
+
+package day079;
+
+public class Day079 {
+
+    public static void main(String[] args) {
+        for (int i = 35; i <= 52; i++) {
+            System.out.println(i);
+        }
+            
+        }
+    
+}
