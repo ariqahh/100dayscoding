@@ -1,0 +1,42 @@
+
+package midd2;
+
+import java.util.Scanner;
+
+
+
+public class Midd2 {
+
+   
+    public static void main(String[] args) {
+        Scanner input = new Scanner (System.in);
+        System.out.println("Masukkan nilai mahasiswa : ");
+        int nilai = input.nextInt();
+        
+        if (nilai >= 50) {
+            System.out.println("Lulus");
+        } else if (nilai < 50) {
+            System.out.println("Tidak lulus");
+        }
+            
+        }
+        
+          
+            }
+                
+            
+        
+        
+        
+       
+       
+        
+
+        
+    
+
+
+       
+    
+    
+
