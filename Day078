@@ -1,0 +1,16 @@
+
+package day078;
+public class Day078 {
+
+    public static void main(String[] args) {
+         float angka1 = 4.5f;
+          float angka2 = 4.5f;
+           float angka3 = 4.5f;
+          
+         System.out.println(angka1);
+         System.out.println(angka2);
+         System.out.println(angka3);
+                 
+    }
+    
+}
