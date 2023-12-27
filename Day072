@@ -1,0 +1,19 @@
+#include <iostream>
+#include <bitset>
+using namespace std;
+int main() {
+    int decimalInput;
+    cout<<"Masukkan bilangan bulat tidak negatif dalam desimal : ";
+    cin>>decimalInput;
+    
+    if (decimalInput<0){
+        cout<<"Input harus bilangan bulat tidak negatif. "<<endl;
+        return 1;
+    }
+    bitset<32>binaryRepresentation (decimalInput);
+
+    cout<<decimalInput<<" dalam biner : "<<binaryRepresentation<<endl;
+    return 0;
+
+
+}
