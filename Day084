@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+int *P; // Mendeklarasikan pointer P
+
+// yang akan menunjuk tipe data
+int
+
+cout<<"Alamat yang ditunjuk oleh pointer
+P: "<<P;
+
+return 0;
+
+}
