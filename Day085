@@ -1,0 +1,25 @@
+
+package day085;
+
+public class Day085 {
+    public static double hasilDiskon(double harga, double diskon){
+        double x = harga * (diskon / 100);
+        double hasil = harga - x;
+        return hasil;
+        
+    }
+    public static void totalDiskon (double harga, double diskon) {
+        System.out.println("harga barang : Rp. " + harga );
+        System.out.println("diskon       : " + diskon + " %");
+        System.out.println("________");
+        System.out.println("Total bayar: " + hasilDiskon (harga, diskon));
+    }
+
+    public static void main(String[] args) {
+        double harga, diskon, x;
+        harga = 700000;
+        diskon = 10;
+        totalDiskon (harga, diskon) ;
+    }
+    
+}
