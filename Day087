@@ -1,0 +1,47 @@
+
+package day087;
+
+import java.util.Scanner;
+
+public class Day087 {
+    public static double hasilDiskon(double harga, double diskon){
+        double x = harga * (diskon / 100);
+        double hasil = harga - x;
+        return hasil;
+        
+    }
+    public static void totalDiskon (double harga, double diskon) {
+        System.out.println("harga barang : Rp. " + harga );
+        System.out.println("diskon       : " + diskon + " %");
+        System.out.println("________");
+        System.out.println("Total bayar  : " + hasilDiskon (harga, diskon));
+    }
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner (System.in) ;
+        double harga, diskon, x;
+        diskon = 10;
+        System.out.print("input harga  : Rp. ");
+        harga = input.nextDouble();
+        if (harga > 1000000) {
+            diskon = 30;
+        }else if (harga <= 1000000){
+            diskon = 10;
+        }else {
+            diskon = 0;
+        }
+        System.out.println("_______");
+        totalDiskon (harga, diskon) ;
+    }
+    
+}
+
+    
+    
+    
+
+
+
+    
+    
+
