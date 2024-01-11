@@ -1,0 +1,47 @@
+
+package day092;
+
+import java.util.Scanner;
+
+public class Day092 {
+     public static int LPersegi (int sisi) {
+        int luas = sisi*sisi;
+        return(luas);
+        
+    }
+     public static int KPersegi (int sisi) {
+         int keliling = 4*sisi;
+         return (keliling);
+        
+    }
+     public static void TotalLPersegi(int sisi) {
+         System.out.println("Luas = Sisi * Sisi");
+         System.out.println("Luas = "+sisi+" x "+sisi);
+         System.out.println("Luas = "+LPersegi(sisi));
+        
+    }
+     public static void TotalKPersegi(int sisi) {
+         System.out.println("Keliling = 4 x sisi");
+         System.out.println("Keliling = 4 x "+sisi);
+         System.out.println("Keliling = "+KPersegi(sisi));
+        
+    }
+
+    public static void main(String[] args) {
+        int sisi = 8;
+        Scanner input = new Scanner (System.in);
+        System.out.println("Menghitung luas dan keliling persegi");
+        System.out.println("____________________");
+        System.out.print("Masukkan sisi persegi : ");
+        sisi = input.nextInt();
+        System.out.println("Luas dan keliling : ");
+        TotalLPersegi (sisi);
+        System.out.println("");
+        TotalKPersegi(sisi);
+
+   
+    }
+
+    
+    
+}
