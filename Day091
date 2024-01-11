@@ -1,0 +1,38 @@
+
+package day090;
+
+public class Day090 {
+     public static int LPersegi (int sisi) {
+        int luas = sisi*sisi;
+        return(luas);
+        
+    }
+     public static int KPersegi (int sisi) {
+         int keliling = 4*sisi;
+         return (keliling);
+        
+    }
+     public static void TotalLPersegi(int sisi) {
+         System.out.println("Luas = Sisi * Sisi");
+         System.out.println("Luas = "+sisi+" x "+sisi);
+         System.out.println("Luas = "+LPersegi(sisi));
+        
+    }
+     public static void TotalKPersegi(int sisi) {
+         System.out.println("Keliling = 4 x sisi");
+         System.out.println("Keliling = 4 x "+sisi);
+         System.out.println("Keliling = "+KPersegi(sisi));
+        
+    }
+
+    public static void main(String[] args) {
+        int sisi = 8;
+        TotalLPersegi (sisi);
+        System.out.println("");
+        TotalKPersegi(sisi);
+
+   
+    }
+}
+    
+
