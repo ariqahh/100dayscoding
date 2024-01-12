@@ -1,0 +1,31 @@
+
+package day099;
+
+import java.util.Scanner;
+
+public class Day099 {
+    public static void operasimatematika(int a,int b) {
+        int c ;
+        c = a+b;
+        System.out.println(a+" + "+b+" = "+c);
+        c = a-b;
+        System.out.println(a+" - "+b+" = "+c);
+        c = a*b;
+        System.out.println(a+" x "+b+" = "+c);
+        c = a/b;
+        System.out.println(a+" : "+b+" = "+c);
+    }
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner (System.in);
+        int a,b,c;
+        System.out.print("nilai a : ");
+        a = input.nextInt();
+        System.out.print("nilai b : ");
+        b = input.nextInt(); 
+        System.out.println("");
+        System.out.println("Operasi matematika : ");
+        operasimatematika (a,b);
+    }
+    
+}
