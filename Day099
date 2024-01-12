@@ -1,0 +1,24 @@
+
+package day099;
+
+public class Day099 {
+    public static void operasimatematika(int a,int b) {
+        int c ;
+        c = a+b;
+        System.out.println(a+" + "+b+" = "+c);
+        c = a-b;
+        System.out.println(a+" - "+b+" = "+c);
+        c = a*b;
+        System.out.println(a+" x "+b+" = "+c);
+        c = a/b;
+        System.out.println(a+" : "+b+" = "+c);
+    }
+
+    public static void main(String[] args) {
+        int a,b,c;
+        a = 50;
+        b = 50;
+        operasimatematika (a,b);
+    }
+    
+}
