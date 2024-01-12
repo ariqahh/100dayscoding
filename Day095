@@ -1,0 +1,31 @@
+
+package day095;
+
+public class Day095 {
+     public static double luasLingkaran(double r, double phi) {
+        double luas = phi*r*r;
+        return (luas);
+    }
+     
+     public static double kelilingLingkaran(double r, double phi) {
+         double diameter = 2*r;
+         double keliling = phi*diameter;
+         return keliling;
+        
+    }
+
+    public static void main(String[] args) {
+        //luas = phi x r x r
+        //keliling = phi x diameter
+        // diameter = 2 x r
+        final double phi = 3.14; //konstanta atau nilai mutlak
+        double  r = 5;
+        System.out.println("Mencari luas dan keliling lingkaran");
+        System.out.println("luas = " + luasLingkaran (r, phi));
+        System.out.println("Keliling = " + kelilingLingkaran (r,phi));
+    }
+
+   
+    }
+    
+
